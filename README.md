@@ -1,4 +1,5 @@
-# Anti_Patrones
+# Anti-patrones
+## Autores: Luis Guillermo Velez - Johan Aguirre Diaz
 ### Código muerto
 Consiste en crear grandes cantidades de código con poca documentación, de forma desordenada y poca claridad de su funcionamiento en el sistema. A medida que el proyecto avanza en su desarrollo el sistema se hace solidifica y resulta más complicado cambiar funcionalidades, documentarlo, reutilizarlo e incluso entenderlo. También se conoce como "Lava flow" ya que caracteriza a los trozos de código (flujo de lava), y a medida que avanza el proyecto se dificulta el cambiar o mejorar este código (flujo de lava seco y endurecido)
 
