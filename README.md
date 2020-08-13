@@ -73,7 +73,7 @@ Consiste en un numero grande de clases (Fantasmas) o de tablas en una base de da
           numero1=leer.nextInt();
           numero2=leer.nextInt();
           usuario= Recibir_numeros(); 
-          usuario.ir_multiplicacion(num1,num2);
+          usuario.ir_multiplicacion(numero1,numero2);
       }
   }
   
