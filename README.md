@@ -78,6 +78,32 @@ Consiste en un numero grande de clases (Fantasmas) o de tablas en una base de da
   }
   
 ```
+## Codigo Espagueti
+
+Es un término despectivo en el ámbito de la programación sobre un código enrevesado sin necesidad, particularmente por las ramificaciones de una parte del código con otro. A veces el spaghetti code es el resultado de múltiples modificaciones de un código antiguo.
+
+Otra analogía de que se llame spaghetti es cuando se realiza un cambio en una parte del código y se tienen efectos impredecibles sobre el resto del programa, como cuando halas un tira de espagueti y afecta a las otras
+
+###ejemplo 
+
+![ejemplo](ejemploespagueti.PNG)
+* imagen obtenida de https://www.tecbolivia.com
+
+
+
+## Lava Flow
+Algo así como “programar al estilo volcán”. Es construir grandes cantidades de código de manera desordenada, con poca documentación y poca claridad de su función en el sistema. Conforme el sistema avanza en su desarrollo, y crece, se dice que estos flujos de lava se solidifican, es decir, se vuelve mucho más complicado corregir los problemas que originan, y el desorden va creciendo geométricamente. 
+
+Esto se hace patente cuando:
+
+1. Se declaran variables no justificadas
+2. Se construyen clases o bloques de código muy grandes y complejas sin documentar, o que no se relacionan claramente con la arquitectura. 
+3. Usando un inconsistente y difuso estilo de evolución de una arquitectura.
+4. Cuando en el sistema existen muchas áreas con código por terminar o reemplazar. 
+
+### Ejemplo
+![ejemplo1](ejemplolavaflow.PNG)
+* Imagen obtenida de https://es.wikipedia.org/wiki/Lava_seca
 
 ##### Referencias:
 Grupo 0 – Antipatrones
@@ -86,11 +112,17 @@ https://aprendearquitecturasoftware.wordpress.com/2018/10/13/grupo-0-antipatrone
 Antipatron Lava Flow-Edwin Salcedo
 https://www.academia.edu/9453479/Antipatron_Lava_Flow
 
-cómo NO hacer programas Las mejores prácticas MCs Jvier González Sánchez
-https://es.slideshare.net/javiergs/cb894-antipatterns
+  cómo NO hacer programas Las mejores prácticas MCs Jvier González Sánchez
+  https://es.slideshare.net/javiergs/cb894-antipatterns
 
-Patrones de Diseño, Refactorización y Antipatrones.
-Ventajas y Desventajas de su Utilización en el Software
-Orientado a Objetoso Gustavo Damián Campo
+  Patrones de Diseño, Refactorización y Antipatrones.
+  Ventajas y Desventajas de su Utilización en el Software
+  Orientado a Objetoso Gustavo Damián Campo
 
 https://www.ucasal.edu.ar/htm/ingenieria/cuadernos/archivos/4-p101-Campo.pdf
+
+ https://geekytheory.com/spaghetti-code
+
+ https://www.tecbolivia.com/index.php/articulos-y-tutoriales-microcontroladores/12-el-qcodigo-espaguetiq-y-los-patrones-avanzados-de-programacion
+
+ https://es.wikipedia.org/wiki/Lava_seca
