@@ -14,14 +14,14 @@ Consiste en crear grandes cantidades de código con poca documentación, de form
 * Se dificulta documentar el código.
 * Se dificulta la posibilidad de mejorar el código a medida que va avanzando el desarrollo del programa.
 
-##### Causas
+##### Causas:
 * El sistema fue puesto en producción sin revisión previa.
 * No existe una arquitectura definida.
 * El desarrollo esta a cargo de una sola persona.
 * Existen varios métodos de prueba.
 * El código debe ser corregido constantemente.
 
-##### Solucion
+##### Solucion:
 * Tener un desarrollo comentado y estructurado desde el comienzo del proyecto.
 * Eliminar partes no funcionales del código (código muerto).
 
@@ -42,11 +42,11 @@ Consiste en un numero grande de clases (Fantasmas) o de tablas en una base de da
 * Se dificulta mejorar o cambiar el código ya que se dificulta encontrar los elementos relevantes del sistema.
 
 
-##### Causas
+##### Causas:
 * El diseño del proyecto no coincide con la implementacíon.
 * Las clases del proyecto aparecen solamente para iniciar un método.
 
-##### Solucion
+##### Solucion:
 * Eliminar clases fantasmas.
 * Replantear un diseño sólido del proyecto.
 
@@ -105,7 +105,7 @@ Esto se hace patente cuando:
 ![ejemplo1](ejemplolavaflow.PNG)
 * Imagen obtenida de https://es.wikipedia.org/wiki/Lava_seca
 
-##### Referencias:
+### Referencias
 Grupo 0 – Antipatrones
 https://aprendearquitecturasoftware.wordpress.com/2018/10/13/grupo-0-antipatrones/
 
