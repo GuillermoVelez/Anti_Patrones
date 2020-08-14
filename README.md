@@ -99,7 +99,7 @@ Del anterior codigo podemos ver que :
 
 El Objeto todo poderoso es un objeto que hace mucho más de lo que debería, esto quiere decir que  no cumple con el principio de única responsabilidad, crece de manera descontrolada y se encarga de tantas cosas diferentes que todo el sistema termina dependiendo de él.
 
-#####¿Por qué es malo?
+##### ¿Por qué es malo?
 
 *	Lo primero es que una clase tan grande seguramente será muy difícil de testear y de mantener debido a su complejidad.
 *	Una clase con tantas responsabilidades no será reusable en ningún otro proyecto.
