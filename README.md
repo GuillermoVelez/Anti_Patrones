@@ -84,45 +84,56 @@ Es un término despectivo en el ámbito de la programación sobre un código enr
 
 Otra analogía de que se llame spaghetti es cuando se realiza un cambio en una parte del código y se tienen efectos impredecibles sobre el resto del programa, como cuando halas un tira de espagueti y afecta a las otras
 
-###ejemplo 
+#####Ejemplo 
 
 ![ejemplo](imagenes/ejemploespagueti.PNG)
 * imagen obtenida de https://www.tecbolivia.com
 
+Del anterior codigo podemos ver que :
+
+* Dentro de cada uno de las secciones principales del programa (llenado de agua, calentado y ciclo de lavado) se hace importante revisar que la puerta de la lavadora esté cerrada, ya que si la puerta es abierta por algún motivo, la operación en curso debe ser inmediatamente detenida por seguridad.  Además el agregar otras funciones adicionales complica el seguimiento del codigp
 
 
-## Lava Flow
-Algo así como “programar al estilo volcán”. Es construir grandes cantidades de código de manera desordenada, con poca documentación y poca claridad de su función en el sistema. Conforme el sistema avanza en su desarrollo, y crece, se dice que estos flujos de lava se solidifican, es decir, se vuelve mucho más complicado corregir los problemas que originan, y el desorden va creciendo geométricamente. 
 
-Esto se hace patente cuando:
+## Objeto todo poderoso
 
-1. Se declaran variables no justificadas
-2. Se construyen clases o bloques de código muy grandes y complejas sin documentar, o que no se relacionan claramente con la arquitectura. 
-3. Usando un inconsistente y difuso estilo de evolución de una arquitectura.
-4. Cuando en el sistema existen muchas áreas con código por terminar o reemplazar. 
+El Objeto todo poderoso es un objeto que hace mucho más de lo que debería, esto quiere decir que  no cumple con el principio de única responsabilidad, crece de manera descontrolada y se encarga de tantas cosas diferentes que todo el sistema termina dependiendo de él.
 
-### Ejemplo
-![ejemplo1](imagenes/ejemplolavaflow.PNG)
-* Imagen obtenida de https://es.wikipedia.org/wiki/Lava_seca
+#####¿Por qué es malo?
+
+*	Lo primero es que una clase tan grande seguramente será muy difícil de testear y de mantener debido a su complejidad.
+*	Una clase con tantas responsabilidades no será reusable en ningún otro proyecto.
+*	Clases muy grandes pueden cargar mucha información innecesaria en memoria degradando el rendimiento de nuestra aplicación.
+* Un god object no permite usar de buena manera los principios de orientación a objetos, por tanto no es fácil realizar cambios en la implementación de las clases sin afectar la funcionalidad de la aplicación.
+
+##### Ejemplo
+
+![figura1](imagenes/ejemploobjeto.png)
+ * imagen obtenida de https://sourcemaking.com
+
+![figura2](imagenes/ejemploobjeto2.png)
+* imagen obtenida de https://sourcemaking.com/
+
 
 ### Referencias
-Grupo 0 – Antipatrones
+* Grupo 0 – Antipatrones
 https://aprendearquitecturasoftware.wordpress.com/2018/10/13/grupo-0-antipatrones/
 
-Antipatron Lava Flow-Edwin Salcedo
+* Antipatron Lava Flow-Edwin Salcedo
 https://www.academia.edu/9453479/Antipatron_Lava_Flow
 
-  cómo NO hacer programas Las mejores prácticas MCs Jvier González Sánchez
-  https://es.slideshare.net/javiergs/cb894-antipatterns
+* cómo NO hacer programas Las mejores prácticas MCs Jvier González Sánchez
+https://es.slideshare.net/javiergs/cb894-antipatterns
 
-  Patrones de Diseño, Refactorización y Antipatrones.
-  Ventajas y Desventajas de su Utilización en el Software
-  Orientado a Objetoso Gustavo Damián Campo
-
+* Patrones de Diseño, Refactorización y Antipatrones.
+Ventajas y Desventajas de su Utilización en el Software
+Orientado a Objetoso Gustavo Damián Campo
 https://www.ucasal.edu.ar/htm/ingenieria/cuadernos/archivos/4-p101-Campo.pdf
 
- https://geekytheory.com/spaghetti-code
+* Spaghetti code  https://geekytheory.com/spaghetti-code
 
- https://www.tecbolivia.com/index.php/articulos-y-tutoriales-microcontroladores/12-el-qcodigo-espaguetiq-y-los-patrones-avanzados-de-programacion
+* El "Código Espagueti" y Los Patrones Avanzados de Programación Escrito por Raúl Alvarez. https://www.tecbolivia.com/index.php/articulos-y-tutoriales-microcontroladores/12-el-qcodigo-espaguetiq-y-los-patrones-avanzados-de-programacion
 
- https://es.wikipedia.org/wiki/Lava_seca
+* God – Object http://www.cristalab.com/tutoriales/antipatrones-god-object-en-patrones-de-diseno-orientado-a-objetos-c101018l/
+  
+* The Blob https://sourcemaking.com/antipatterns/the-blob 
