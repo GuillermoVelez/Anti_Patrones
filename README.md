@@ -86,7 +86,7 @@ Otra analogía de que se llame spaghetti es cuando se realiza un cambio en una p
 
 ###ejemplo 
 
-![ejemplo](ejemploespagueti.PNG)
+![ejemplo](imagenes/ejemploespagueti.PNG)
 * imagen obtenida de https://www.tecbolivia.com
 
 
@@ -102,7 +102,7 @@ Esto se hace patente cuando:
 4. Cuando en el sistema existen muchas áreas con código por terminar o reemplazar. 
 
 ### Ejemplo
-![ejemplo1](ejemplolavaflow.PNG)
+![ejemplo1](imagenes/ejemplolavaflow.PNG)
 * Imagen obtenida de https://es.wikipedia.org/wiki/Lava_seca
 
 ### Referencias
