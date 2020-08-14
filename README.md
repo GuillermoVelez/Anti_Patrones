@@ -84,7 +84,7 @@ Es un término despectivo en el ámbito de la programación sobre un código enr
 
 Otra analogía de que se llame spaghetti es cuando se realiza un cambio en una parte del código y se tienen efectos impredecibles sobre el resto del programa, como cuando halas un tira de espagueti y afecta a las otras
 
-#####Ejemplo 
+##### Ejemplo 
 
 ![ejemplo](imagenes/ejemploespagueti.PNG)
 * imagen obtenida de https://www.tecbolivia.com
